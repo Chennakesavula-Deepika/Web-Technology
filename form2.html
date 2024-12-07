@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>REGISTRATION FORM</legend>
+        <fieldset>
+            <Legend>PERSONAL DETAILS</Legend>
+
+    <label for ="uname">User Name</label>
+        <input type = "text" id ="uname" name="uname" size="50" placeholder="capital letters"><br>
+    <br>
+    <label for ="pass">Password</label>
+    <input type ="password" id="pass" name="Password" required><br>
+    <br>
+    <label for ="email">EMAIL</label>
+    <input type=""email name=""mail id ="mail" autofocus placeholder="example@gmail.com"><br><br>
+
+    <label for=""contact">Contact</label>
+    <input type="tel" name ="contact" id="contact" minlength="10" maxlength = "10"><br><BR>
+
+        <label for="gen">Gender</label>
+        <input type="radio" name="gen" id="gen" value="Male">Male
+        <input type="radio" name="gen" id="gen" value="FeMale">FeMale
+        <input type="radio" name="gen" id="gen" value="others">others<br><br>
+    
+
+
+
+    
+    <label for ="DOB">DOB</label>
+    <input  type ="date" name="dob" id="dob"><br><br>
+
+    <label for ="age">Age : </label>
+    <input type="number" name="age" id="age" max="35" min="18"><br><br>
+
+    <label for="address" >Address</label>
+    <textarea name="address" id="address"></textarea><br><br>
+
+    <label for="gen">Gender</label>
+    <input type="radio" name="gen" id="gen" value="Male">Male
+    <input type="radio" name="gen" id="gen" value="FeMale">FeMale
+    <input type="radio" name="gen" id="gen" value="others">others<br><br>
+
+
+    <label for="lang">Language</label>
+    <input type="checkbox" name="lang" id="lang" value="kannada">kannada
+    <input type="checkbox" name="lang" id="lang" value="Telugu">Telugu
+    <input type="checkbox" name="lang" id="lang" value="Tamil">Tamil
+    <input type="checkbox" name="lang" id="lang" value="English">English
+    <input type="checkbox" name="lang" id="lang" value="urdu">urdu <br><br>
+     
+    <label for="state">STATE</label>
+    <select name="state" id="state">
+        <option value="KAR">KAR</option>
+        <option value="GoA">GOA</option>
+        <option value="Mp">Mp</option>
+        <option value="Hp"><Hr></Hr>p</option>
+        <option value="up">up</option>
+    </select><br><br>
+
+        <label for="con">COUNTRY</label>
+   <input type="text" name="con" id="con" list="country">
+   <datalist id="country">
+    <option value="INDIA">India</option>
+    <option value="SA">sa</option>
+    <option value="USA">usa</option>
+   </datalist><br><br>
+
+
+  <label for="city">CITY</label>
+  <select name="city" id="city">
+ <optgroup label ="KAR">
+    <option value="BNG">BNG</option>
+    <option value="Mysore">Mysore</option>
+    <option value="Tumkur">Tumkur</option>
+ </optgroup>  
+    <optgroup label="Maharastra">
+        <option value="Mumbai">Mumbai</option>
+        <option value="pune">Pune</option>
+        <option value="Maduri">Maduri</option>
+    </optgroup>  
+    </select><br><br>
+
+
+
+
+    <label for="res">UPLOAD RESUME</label><br><br>
+    <input type="file" name="res" id="res"><br><br>
+
+
+    <label for="comp">Company : </label>
+    <input type="text" name="comp" id="comp" value="TCS" readonly><br><br>
+
+    <label for="comp">Company</label>
+    <input type="image" name="comp" id="comp" src="" height="100px" width="150px"><br><br>
+
+
+    </fieldset>
+         <button type="submit">SUBMIT</button>
+         <button type="reset">Reset</button>
+</fieldset>
+</form>
+</body>
+</html>

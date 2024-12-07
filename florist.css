@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav_bar{
+    height:70px;
+    width:100%;
+    padding: 0px 10px;
+}
+#nav_bar nav{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav_bar nav .logo_blk{
+    flex-basis: 20%;
+}
+#nav_bar nav .logo_blk h1{
+    font-size: 25px;
+}
+#nav_bar nav .content_blk{
+    flex-basis:60%;
+    height:inherit;
+}
+#nav_bar nav .content_blk ul{
+    height:inherit;
+    width:inherit;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+#nav_bar nav .content_blk ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+#nav_bar nav .content_blk ul li:first-child a{
+    font-weight:  600;
+}
+/*https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Flotus-flower-wallpapers--21181060726138322%2F&psig=AOvVaw2GsNPw4B8b8WrFoO8wuP8F&ust=1722694919058000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiR24zB1ocDFQAAAAAdAAAAABAE*/
+#body_blk{
+    height: 85vh;
+    width:100%;
+    background-image:url(https://2bd7a77e373a9572610f-dba1f64a3f969774cdd587a3528671a8.ssl.cf1.rackcdn.com/medias/1321/select/tulips.jpg?1340384379);
+    
+  
+    
+  /*  background-image:url(https://m.media-amazon.com/images/I/81AxuYuOELL._AC_UF1000,1000_QL80_.jpg);*/
+    
+   /* background-image:url(https://i.pinimg.com/originals/f1/16/f7/f116f7006587aaa02417bfc03cd709b1.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#body_blk .text_blk{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top:300px;
+    left:50px;
+}
+#body_blk .text_blk h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#body_blk .text_blk p{
+    opacity: 0.7;
+    margin:20px 0px;
+    font-family:"Josefin Sans", sans-serif;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    color:black;
+}
+#body_blk .text_blk button{
+    padding:10px 20px;
+    border-radius: 18px;
+    background-color: rgb(147, 138, 138);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color:white;
+}
